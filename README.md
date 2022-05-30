@@ -10,11 +10,6 @@ Circa 40 vehicles were driving from the same start location to a common destinat
 The vehicles were starting consecutively from a parking lot.
 Every second vehicle was following the route guidance of Google Maps and every other vehicle was using NUNAV Navigation.
 
-### Results
-
-The recorded data is in the [route-choice](route-choice) directory. 
-The trajectories of both groups can be viewed on a map:
-- [Google Maps](route-choice/trajectory-geojson_route-choice_GoogleMaps.json)
-- [NUNAV Navigation](route-choice/trajectory-geojson_route-choice_NunavSwarm.json)
-
-The travel times of both fleets are compared in a Jupyter Notebook: [Evaluation](route-choice/evaluation-simple.ipynb).  
+- The experiment is described in the paper:
+[Analysing the Influence of Route Choice on Traffic Flow with Speed Profiles](route-choice/report.md) 
+- The [route-choice](route-choice) directory contains the recorded GPS trajectories. 
