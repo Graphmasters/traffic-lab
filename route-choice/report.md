@@ -38,10 +38,10 @@ travel time.
 
 ## Test drive setup
 
-In the city of Hanover, Germany an artificial demand spike was created by sending 50 vehicles from the same origin to a
+In the city of Hanover, Germany an artificial demand spike was created by sending 39 vehicles from the same origin to a
 common destination during the evening rush hour. The trajectories and speed profiles of the floating cars were recorded
 to measure the real-word effect of route choice on floating cars in a high demand scenario. The vehicles were split in
-two groups with 27 and 23 vehicles respectively. In each group the drivers were following the route guidance by a mobile
+two groups with 22 and 17 vehicles respectively. In each group the drivers were following the route guidance by a mobile
 navigation app. The first group was using Google Maps which has a good live traffic coverage in Hanover (individualistic
 routing) while the second group was following the route advice of NUNAV Navigation with live traffic data and load
 balanced routing. The two groups started interleaved on a supermarket parking lot. Origin and destination have been
@@ -63,8 +63,9 @@ a central server.
 The key performance indicators are summarised in table 1. The values are given per vehicle as the mean over all
 vehicles. For each GPS trajectory the travel time between start and finish location was derived from the GPS timestamps.
 The travel distance was measured after matching the GPS trajectories to the road geometry from Open Street
-Map [[4](https://www.openstreetmap.org/about)]. The average speed is calculated from travel time and distance. The
-periods with a speed below 10 km/h are detected as stops and the durations of all stops are summarised. Additionally,
+Map [[4](https://www.openstreetmap.org/about)]. The average speed is calculated from travel time and distance. 
+A stop is detected when the vehicle speed is below 5 km/h and the stop period ends when the speed is above 10 km/h. 
+The durations of all stops are summarised per vehicle. Additionally,
 the fuel consumption for a typical gasoline car has been simulated for the GPS trajectories using the multi-model
 open-source vehicular-traffic simulator (MovSim) [[1](https://github.com/movsim/movsim)].
 
@@ -122,6 +123,7 @@ real world experiment. Special thanks to:
 - Karsten Klompmaker and Peter Finch: Data transfer and aggregation
 - Jannik Vogel: Data visualisation and statistics
 - Matthias Pastunink, Jasmin Schönberger and Jil Baae: Organisation of test drivers and vehicles
+- And the ADAC Niedersachsen/Sachsen-Anhalt e. V. for fruitful discussions and organising the event 
 
 ## References
 
