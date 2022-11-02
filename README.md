@@ -13,3 +13,12 @@ Every second vehicle was following the route guidance of Google Maps and every o
 - The experiment is described in the paper:
 [Analysing the Influence of Route Choice on Traffic Flow with Speed Profiles](route-choice/report.md) 
 - The [route-choice](route-choice) directory contains the recorded GPS trajectories. 
+
+## Verkehrsexperiment October 2021
+
+An earlier traffic experiment was conducted on October 5th, 2021 at 16:45 CEST
+with the same origin and destination.
+
+- PDF report:
+  [Analysing the Influence of Route Choice on Traffic Flow with Speed Profiles](route-choice-2021/report.pdf)
+- The [route-choice-2021](route-choice-2021) directory contains the recorded GPS trajectories.
