@@ -63,18 +63,18 @@ a central server.
 The key performance indicators are summarised in table 1. The values are given per vehicle as the mean over all
 vehicles. For each GPS trajectory the travel time between start and finish location was derived from the GPS timestamps.
 The travel distance was measured after matching the GPS trajectories to the road geometry from Open Street
-Map [[4](https://www.openstreetmap.org/about)]. The average speed is calculated from travel time and distance. 
-A stop is detected when the vehicle speed is below 5 km/h and the stop period ends when the speed is above 10 km/h. 
+Map [[4](https://www.openstreetmap.org/about)]. The average speed is calculated from travel time and distance.
+A stop is detected when the vehicle speed is below 5 km/h and the stop period ends when the speed is above 10 km/h.
 The durations of all stops are summarised per vehicle. Additionally,
 the fuel consumption for a typical gasoline car has been simulated for the GPS trajectories using the multi-model
 open-source vehicular-traffic simulator (MovSim) [[1](https://github.com/movsim/movsim)].
 
 **Table 1:** Mean performance indicators per vehicle
 
-Route choice|Vehicles|Travel time|Distance|Speed|Stops|Fuel
------|-----|-----|-----|-----|-----|-----
-Individualistic |22|10.5 min|34.4 km|18.5 km/h|14.8 min|1.068 l
-Load balanced |17|11.1 min|30.6 km|22.0 km/h|10.7 min|1.048 l
+| Route choice    | Vehicles | Distance | Travel time | Speed     | Stops    | Fuel    |
+|-----------------|----------|----------|-------------|-----------|----------|---------|
+| Individualistic | 22       | 10.5 km  | 34.4 min    | 18.5 km/h | 14.8 min | 1.068 l |
+| Load balanced   | 17       | 11.1 km  | 30.6 min    | 22.0 km/h | 10.7 min | 1.048 l |
 
 <img src="trajectory-geojson_route-choice_GoogleMaps.png" width="400"> <img src="trajectory-geojson_route-choice_NunavSwarm.png" width="400">
 
@@ -93,14 +93,14 @@ multiple paths.
 
 **Table 2:** Mean performance indicators per vehicle for each path
 
-Route choice|Path|Vehicles|Travel time|Distance|Speed|Stops|Fuel
------|-----|-----|-----|-----|-----|-----|-----
-Individualistic |Orange|20|10.5 min|34.8 km|18.4 km/h|15.1 min|1.077 l
-Individualistic |Blue|2|10.2 min|30.7 km|19.8 km/h|12.0 min|0.979 l
-Load balanced |Red|4|12.9 min|27.9 km|27.8 km/h|9.2 min|1.134 l
-Load balanced |Green|3|10.9 min|33.1 km|19.9 km/h|11.9 min|1.045 l
-Load balanced |Orange|5|10.4 min|31.3 km|20.0 km/h|10.9 min|1.002 l
-Load balanced |Blue|5|10.5 min|30.5 km|20.8 km/h|11.0 min|1.028 l
+| Route choice    | Path   | Vehicles | Distance | Travel time | Speed     | Stops    | Fuel    |
+|-----------------|--------|----------|----------|-------------|-----------|----------|---------|
+| Individualistic | Orange | 20       | 10.5 km  | 34.8 min    | 18.4 km/h | 15.1 min | 1.077 l |
+| Individualistic | Blue   | 2        | 10.2 km  | 30.7 min    | 19.8 km/h | 12.0 min | 0.979 l |
+| Load balanced   | Red    | 4        | 12.9 km  | 27.9 min    | 27.8 km/h | 9.2 min  | 1.134 l |
+| Load balanced   | Green  | 3        | 10.9 km  | 33.1 min    | 19.9 km/h | 11.9 min | 1.045 l |
+| Load balanced   | Orange | 5        | 10.4 km  | 31.3 min    | 20.0 km/h | 10.9 min | 1.002 l |
+| Load balanced   | Blue   | 5        | 10.5 km  | 30.5 min    | 20.8 km/h | 11.0 min | 1.028 l |
 
 ## Conclusion
 
@@ -123,7 +123,7 @@ real world experiment. Special thanks to:
 - Karsten Klompmaker and Peter Finch: Data transfer and aggregation
 - Jannik Vogel: Data visualisation and statistics
 - Matthias Pastunink, Jasmin Schönberger and Jil Baae: Organisation of test drivers and vehicles
-- And the ADAC Niedersachsen/Sachsen-Anhalt e. V. for fruitful discussions and organising the event 
+- And the ADAC Niedersachsen/Sachsen-Anhalt e. V. for fruitful discussions and organising the event
 
 ## References
 
