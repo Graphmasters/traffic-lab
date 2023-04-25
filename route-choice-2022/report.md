@@ -71,10 +71,10 @@ open-source vehicular-traffic simulator (MovSim) [[1](https://github.com/movsim/
 
 **Table 1:** Mean performance indicators per vehicle
 
-| Route choice    | Vehicles | Distance | Travel time | Stops     | Fuel     |
-|-----------------|----------|----------|-------------|-----------|----------|
-| Individualistic | 22       | 10.5 km  | 34.4 min    | 18.5 km/h | 14.8 min | 1.068 l 
-| Load balanced   | 17       | 11.1 km  | 30.6 min    | 22.0 km/h | 10.7 min | 1.048 l 
+| Route choice    | Vehicles | Distance | Travel time | Speed     | Stops    | Fuel    |
+|-----------------|----------|----------|-------------|-----------|----------|---------|
+| Individualistic | 22       | 10.5 km  | 34.4 min    | 18.5 km/h | 14.8 min | 1.068 l |
+| Load balanced   | 17       | 11.1 km  | 30.6 min    | 22.0 km/h | 10.7 min | 1.048 l |
 
 <img src="trajectory-geojson_route-choice_GoogleMaps.png" width="400"> <img src="trajectory-geojson_route-choice_NunavSwarm.png" width="400">
 
