@@ -11,8 +11,8 @@ The vehicles were starting consecutively from a parking lot.
 Every second vehicle was following the route guidance of Google Maps and every other vehicle was using NUNAV Navigation.
 
 - The experiment is described in the paper:
-[Analysing the Influence of Route Choice on Traffic Flow with Speed Profiles](route-choice/report.md) 
-- The [route-choice](route-choice) directory contains the recorded GPS trajectories. 
+[Analysing the Influence of Route Choice on Traffic Flow with Speed Profiles](route-choice-2022/report.md) 
+- The [route-choice-2022](route-choice-2022) directory contains the recorded GPS trajectories. 
 
 ## Verkehrsexperiment October 2021
 
